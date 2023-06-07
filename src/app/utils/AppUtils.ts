@@ -11,7 +11,7 @@ import { baseUrl } from './constants';
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const fetchTokenResponse = async (): Promise<any> => {
-  const response = await fetch(`${baseUrl}/token?scope=voip`);
+  const response = await fetch(`${baseUrl}/acs/get-user-token`);
   if (response.ok) {
     const responseAsJson = await response.json(); //(await response.json())?.value?.token;
     const token = responseAsJson.token;
