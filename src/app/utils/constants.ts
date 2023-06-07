@@ -1,1 +1,1 @@
-export const baseUrl = 'https://apimdevtech.azure-api.net/virtualassistanceapp/api/v1';
+export const baseUrl = 'https://apimdevtech.azure-api.net/virtualassistanceapp/v1';
